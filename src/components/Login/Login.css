@@ -1,0 +1,70 @@
+.Login__Container {
+  display: flex;
+  flex-direction: row;
+  background-color: #f2f1f7;
+}
+
+.Login__Container .Login__Content,
+.Login__Container .Register__Content {
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.Login__Container form {
+  display: flex;
+  flex-direction: column;
+}
+
+.Register__Content {
+  margin-left: 50%;
+}
+
+.Login__Content .LoginForm__Form,
+.Register__Content .RegisterForm__Form {
+  width: 45%;
+}
+
+.Login__Content .LoginForm__Form .LoginForm__Form__TextField,
+.Register__Content .RegisterForm__Form .RegisterForm__Form__TextField {
+  margin-bottom: 15px;
+}
+
+.Login__Content .LoginForm__Form .LoginForm__Form__Button,
+.Register__Content .RegisterForm__Form .RegisterForm__Form__Button {
+  margin-top: 30px;
+  color: #fff;
+}
+
+.Login__Content .LoginForm__Form .LoginForm__Form__Button--register,
+.Register__Content .RegisterForm__Form .RegisterForm__Form__Button--login {
+  font-size: 11px;
+  margin-top: 8px;
+  cursor: pointer;
+  color: #222;
+  text-align: center;
+}
+
+.Login__Container .Mask__Content {
+  position: absolute;
+  width: 50%;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 30px;
+  color: #fff;
+  z-index: 1;
+  transition: all 1s ease;
+}
+.Login__Container .Mask__Content--left {
+  margin-left: 0;
+}
+.Login__Container .Mask__Content--right {
+  margin-left: 50%;
+}
+
+
+

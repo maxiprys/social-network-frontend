@@ -1,0 +1,69 @@
+.Home__Content__Paper {
+  padding: 35px;
+  margin-top: 15px;
+}
+
+.Home__Form > div {
+  width: 100%;
+}
+
+.Home__Form .Home__Form__UploadBox {
+  width: 36%;
+  display: flex;
+  justify-content: center;
+  margin: 20px 32%;
+  border: 2px dashed #ccc;
+}
+
+.Home__Form__UploadLabel {
+  cursor: pointer;
+}
+
+.Home__Form .Home__Form__UploadImage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 90px;
+  height: 80px;
+  background-color: #ddd;
+  color: #999;
+  border-radius: 4px;
+  cursor: pointer;
+  margin: 30px;
+}
+
+.Home__Form .Home__Form__UploadInput {
+  display: none;
+}
+
+.Home__Form__Button__Container {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 20px;
+}
+
+.Home__Form__Button__Container .Home__Form__Button {
+  color: #fff;
+}
+
+.Publication__Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Publication__Header--date {
+  font-size: 12px;
+  color: #555;
+  font-weight: 300;
+}
+
+.Publication__Text {
+  margin-top: 15px;
+}
+
+.Publication__Image {
+  width: 100%;
+  display: block;
+  margin: auto;
+}
